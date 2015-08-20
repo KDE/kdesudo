@@ -108,13 +108,13 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
                 KStandardDirs dirs;
                 file = dirs.findResource("config", file);
                 if (file.isEmpty()) {
-                    kFatal(1206) << "Config file not found: " << file << "\n";
+                    kWarning(1206) << "Config file not found: " << file << "\n";
                     exit(1);
                 }
             }
             QFileInfo fi(file);
             if (!fi.exists()) {
-                kFatal(1206) << "File does not exist: " << file << "\n";
+                kWarning(1206) << "File does not exist: " << file << "\n";
                 exit(1);
             }
             if (fi.isWritable()) {

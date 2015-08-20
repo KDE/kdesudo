@@ -1,0 +1,180 @@
+# Albanian translation for kdesudo
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdesudo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesudo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2012-05-28 14:44+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Prioriteti:"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "realtime:"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Komanda:"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Kujdes: </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Fjalëkalim i gabuar! Po dal..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr ""
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr ""
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "Sudo frontend për KDE"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Anthony Mercatante"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Anthony Mercatante"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Böhm"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr ""
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr ""
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr ""
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Përcakto ikonën për të përdorur në dialogun e fjalëkalimit"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "Mos e trego komandën që do të egzekutohet në dialog"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr ""
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr ""
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr ""
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr ""
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Mos e mbaj fjalëkalimin"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr ""
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr ""
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr ""
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Vilson Gjeci"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,vilsongjeci@gmail.com"

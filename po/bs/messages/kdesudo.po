@@ -1,0 +1,183 @@
+# Bosnian translation (converted from Serbian) for kdesudo
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the kdesudo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesudo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2010-10-11 12:46+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+"Komandni parametri nisu dostavljeni!\n"
+"Korišćenje: kdesudo [-u <runas>] <command>\n"
+"KdeSudo će sada izaći..."
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Prioritet:"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "realno vrijeme:"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Naredba:"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr "zahtjeva administratorska prava. "
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr "Molim Vas unesite svoju lozinku."
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr "Molim Vas unesite lozinku za <b>%1</b>."
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Upozorenje: </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr "<b>Netačna lozinka, molim pokušajte ponovo.</b>"
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Pogrešna lozinka! Okončavanje i izlaz..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr "Komanda nije nađena!"
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr "Vaše korisničko ime nije poznato sudo-u!"
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr "Vašem korisničkom imenu nije dozvoljeno da pokrene datu instrukciju!"
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr "Vaš korisnik nema pravo da izvrši sudo na ovom računaru!"
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "Sudo frontend za KDE"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Antoni Merkatant"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Antoni Merkatant"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Bem"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Džonatan Ridel"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr "Herald Siter"
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr "postavlja runas korisnika"
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr "Komanda za izvršavanje"
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr "Zaboravi lozinke"
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Naznači ikonu za korišćenje u dijalogu za lozinke"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "Nemoj da prikažeš naredbu koja će se izvršiti u dijalogu"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr "Prioritet procesa, između 0 i 100, 0 je najniži [50]"
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr "Koristi raspoređivanje u realnom vremenu"
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr "Koristi ciljni UID ako <file> nije upisiv"
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr "Lažna opcija za KDE-ovu KdeSu kompatibilnost"
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Nemoj da sačuvaš lozinku"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr "Koristi postojeći DCOP server"
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr "Komentar koji bi trebalo ispisati u dijalogu"
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr "Nemoj prikazati « ignoriši » dugme"
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr "Čini dijalnog prolaznim za X aplikaciju određenu od strane winid-a"
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr "Ručni prelazak preko automatske desktop detekcije datoteke"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr " ,Launchpad Contributions:,Mirza,Samir Ribić"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,,"

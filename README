@@ -1,0 +1,2 @@
+Just type "kdesudo <command>" to run <command> as root user.
+Optionally you can type "kdesudo -u <runas> <command>" and <command> will be executed as user <runas>

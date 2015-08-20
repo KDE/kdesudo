@@ -1,0 +1,189 @@
+# Dutch translation for kdesudo
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the kdesudo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesudo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2010-03-14 13:48+0000\n"
+"Last-Translator: cumulus007 <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+"Geen commandoargumenten meegegeven!\n"
+"Gebruik: kdesudo [-u <runas>] <commando>\n"
+"KdeSudo wordt nu afgesloten..."
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Prioriteit:"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "realtime:"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Commando:"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr "heeft beheerdersrechten nodig. "
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr "Voer uw wachtwoord in."
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr "Voer het wachtwoord in voor <b>%1</b>."
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Waarschuwing: </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr "<b>Incorrect wachtwoord, probeer het nog een keer.</b>"
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Fout wachtwoord! Afsluiten..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr "Commando niet gevonden!"
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr "Uw wachtwoord is niet bekend bij sudo!"
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr ""
+"Het is uw gebruiker niet toegestaan om het opgegeven commando uit te voeren!"
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr ""
+"Het is uw gebruiker niet toegestaan om sudo uit te voeren op deze host!"
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "Sudo-frontend voor KDE"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Anthony Mercatante"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Anthony Mercatante"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Böhm"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr "stelt een 'runas'-gebruiker in"
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr "Het uit te voeren commando"
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr "Wachtwoorden vergeten"
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Pictogram opgeven dat in de wachtwoorddialoog moet worden gebruikt"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "Uit te voeren commando niet in het dialoogvenster weergeven"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr "Procesprioriteit, tussen 0 en 100, 0 het laagst [50]"
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr "Realtime scheduling gebruiken"
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr "Doel-UID gebruiken als <bestand> niet beschrijfbaar is"
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr "Optie voor KDE's KdeSu-compatibiliteit nabootsen"
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Wachtwoord niet onthouden"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr "Bestaande DCOP-server gebruiken"
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr "De opmerking die in het dialoogvenster moet worden weergegeven"
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr "De knop « negeren » niet weergeven"
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+"Zorgt er voor dat het venster zich gedraagt als dialoogvenster voor een X11-"
+"toepassing die wordt gespecificeerd via winid"
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr "Automatische desktop-bestand-detectie handmatig omzeilen"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+" ,Launchpad Contributions:,Balaam's Miracle,Kristof Bal,René "
+"Brink,cschutijser,cumulus007"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,,kristof.bal@gmail.com,rene.brink@gmail.com,cschutijser@gmail.com,"

@@ -1,0 +1,109 @@
+'\" -*- coding: us-ascii -*-
+.if \n(.g .ds T< \\FC
+.if \n(.g .ds T> \\F[\n[.fam]]
+.de URL
+\\$2 \(la\\$1\(ra\\$3
+..
+.if \n(.g .mso www.tmac
+.TH kdesudo 1 2007-03-26 "" ""
+.SH NAME
+kdesudo \- a sudo frontend for KDE
+.SH SYNOPSIS
+'nh
+.fi
+.ad l
+\fBkdesudo\fR \kx
+.if (\nx>(\n(.l/2)) .nr x (\n(.l/5)
+'in \n(.iu+\nxu
+[
+\fB\fIGeneric-options\fB\fR
+] [
+\fB\fIkdesudo-options\fB\fR
+]
+'in \n(.iu-\nxu
+.ad b
+'hy
+.SH DESCRIPTION
+kdesudo is a frontend for sudo for the KDE desktop.
+.SH OPTIONS
+.TP 
+\*(T<\fB\-\-help\fR\*(T> 
+Show help about options
+.TP 
+\*(T<\fB\-\-help\-qt\fR\*(T> 
+Show Qt specific options
+.TP 
+\*(T<\fB\-\-help\-kde\fR\*(T> 
+Show KDE specific options
+.TP 
+\*(T<\fB\-\-help\-all\fR\*(T> 
+Show all options
+.TP 
+\*(T<\fB\-\-author\fR\*(T> 
+Show author information
+.TP 
+\*(T<\fB\-v\fR\*(T>, \*(T<\fB\-\-version\fR\*(T> 
+Show version information
+.TP 
+\*(T<\fB\-\-license\fR\*(T> 
+Show license information
+.TP 
+\*(T<\fB\-\-\fR\*(T> 
+Indicates end of options
+.TP 
+\*(T<\fB\-c \(Fo command \(Fc\fR\*(T> 
+Specifies the command to run
+.TP 
+\*(T<\fB\-u \(Fo user \(Fc\fR\*(T> 
+Specifies the target uid [default is root]
+.TP 
+\*(T<\fB\-n\fR\*(T> 
+Do not keep password
+.TP 
+\*(T<\fB\-s\fR\*(T> 
+Forgets all passwords
+.TP 
+\*(T<\fB\-p \(Fo priority \(Fc\fR\*(T> 
+Set priority value: between 0 and 100, 0 is lowest [default is 50]
+.TP 
+\*(T<\fB\-\-nonewdcop\fR\*(T> 
+Let command use existing dcopserver
+.TP 
+\*(T<\fB\-\-comment \(Fo comment \(Fc\fR\*(T> 
+Comment to display in the dialog box
+.TP 
+\*(T<\fB\-\-noignorebutton\fR\*(T> 
+Do not display \(Fo ignore \(Fc button
+.TP 
+\*(T<\fB\-\-attach \(Fo window_id \(Fc \fR\*(T>
+Makes the dialog transient for an X app specified by winid
+.TP 
+\*(T<\fB\-i \(Fo icon_name \(Fc\fR\*(T> 
+Specify icon to use in the password dialog
+.TP 
+\*(T<\fB\-d\fR\*(T> 
+Do not show the command to be run in the dialog
+.TP 
+\*(T<\fB\-r\fR\*(T> 
+Use realtime scheduling
+.TP 
+\*(T<\fB\-f \(Fo file \(Fc\fR\*(T> 
+Use target UID if \(Fo file \(Fc is not writeable
+.TP 
+\*(T<\fB\-t\fR\*(T> 
+Enable terminal output (no password keeping)
+.PP
+.TP 
+\*(T<\fB\-u\fR\*(T> 
+Sets a runas user
+.SH COPYRIGHT
+This manual page was written by Anthony Mercatante
+<\*(T<tonio@ubuntu.com\*(T>> for the
+Ubuntu system (but may be used by others).
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU General Public License,
+Version 2 or any later version published by the Free Software Foundation.
+.PP
+On Debian systems, the complete text of the GNU General Public
+License can be found in
+\*(T<\fI/usr/share/common\-licenses/GPL\fR\*(T>.

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+]>
+<refentry>
+  <refentryinfo>
+    <author>
+      <firstname>Anthony</firstname>
+      <surname>Mercatante</surname>
+      <email>tonio@ubuntu.com</email>
+    </author>
+    <copyright>
+      <year>2007</year>
+      <holder>Anthony Mercatante</holder>
+    </copyright>
+    <!-- XXX IMPORTANT XXX -->
+    <!-- Keep this date up to date: -->
+    <date>2007-03-26</date>
+    <!--  ^^^^^^^^^^ -->
+  </refentryinfo>
+  <refmeta>
+    <refentrytitle>kdesudo</refentrytitle>
+    <manvolnum>1</manvolnum>
+  </refmeta>
+  <refnamediv>
+    <refname>kdesudo</refname>
+    <refpurpose>a sudo frontend for KDE</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>kdesudo</command>
+      <arg choice="opt">
+        <option><replaceable>Generic-options</replaceable></option>
+      </arg>
+      <arg choice="opt">
+        <option><replaceable>kdesudo-options</replaceable></option>
+      </arg>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1>
+    <title>DESCRIPTION</title>
+    <para>
+      kdesudo is a frontend for sudo for the <productname>KDE</productname> desktop.
+    </para>
+  </refsect1>
+  <refsect1>
+    <title>OPTIONS</title>
+    <para>
+      <variablelist>
+        <title>Generic options:</title>
+        <varlistentry>
+          <term> <option>--help</option> </term>
+          <listitem> <para>Show help about options</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--help-qt</option> </term>
+          <listitem> <para>Show Qt specific options</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--help-kde</option> </term>
+          <listitem> <para>Show KDE specific options</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--help-all</option> </term>
+          <listitem> <para>Show all options</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--author</option> </term>
+          <listitem> <para>Show author information</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-v</option>, <option>--version</option> </term>
+          <listitem> <para>Show version information</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--license</option> </term>
+          <listitem> <para>Show license information</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--</option> </term>
+          <listitem> <para>Indicates end of options</para> </listitem>
+        </varlistentry>
+      </variablelist>
+      <variablelist>
+        <title>KdeSudo Options:</title>
+        <varlistentry>
+          <term> <option>-c « command »</option> </term>
+          <listitem> <para>Specifies the command to run</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-u « user »</option> </term>
+          <listitem> <para>Specifies the target uid [default is root]</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-n</option> </term>
+          <listitem> <para>Do not keep password</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-s</option> </term>
+          <listitem> <para>Forgets all passwords</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-p « priority »</option> </term>
+          <listitem> <para>Set priority value: between 0 and 100, 0 is lowest [default is 50]</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--nonewdcop</option> </term>
+          <listitem> <para>Let command use existing dcopserver</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--comment « comment »</option> </term>
+          <listitem> <para>Comment to display in the dialog box</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--noignorebutton</option> </term>
+          <listitem> <para>Do not display « ignore » button</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>--attach « window_id » </option> </term>
+          <listitem> <para>Makes the dialog transient for an X app specified by winid</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-i « icon_name »</option> </term>
+          <listitem> <para>Specify icon to use in the password dialog</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-d</option> </term>
+          <listitem> <para>Do not show the command to be run in the dialog</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-r</option> </term>
+          <listitem> <para>Use realtime scheduling</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-f « file »</option> </term>
+          <listitem> <para>Use target UID if « file » is not writeable</para> </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term> <option>-t</option> </term>
+          <listitem> <para>Enable terminal output (no password keeping)</para> </listitem>
+        </varlistentry>
+      </variablelist>
+    </para>
+    <para>
+      <variablelist>  
+      <title>KdeSudo options:</title>
+        <varlistentry>
+          <term> <option>-u</option> </term>
+          <listitem> <para>Sets a runas user</para> </listitem>
+        </varlistentry>
+      </variablelist>
+      <!-- TODO * add all the rest of the options, but maybe find an automated
+      way to keep it up to date -->
+    </para>
+  </refsect1>
+  <refsect1>
+    <title>COPYRIGHT</title>
+    <para>
+      This manual page was written by Anthony Mercatante
+      <email>tonio@ubuntu.com</email> for the
+      <productname>Ubuntu</productname> system (but may be used by others).
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the <acronym>GNU</acronym> General Public License,
+      Version 2 or any later version published by the Free Software Foundation.
+    </para>
+    <para>
+      On Debian systems, the complete text of the GNU General Public
+      License can be found in
+      <filename>/usr/share/common-licenses/GPL</filename>.
+    </para>
+  </refsect1>
+</refentry>

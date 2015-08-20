@@ -1,0 +1,189 @@
+# Turkish translation for kdesudo
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the kdesudo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesudo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2010-04-13 20:50+0000\n"
+"Last-Translator: Emrah Ergin <erginemr@hotmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+"Hiç bir komut argümanı belirtilmemiş!\n"
+"Kullanım: kdesudo [-u <kullanıcı>] <komut>\n"
+"KdeSudo kapatılacak..."
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Öncelik:"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "gerçek zaman:"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Komut:"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr "yönetimsel ayrıcalık gerekiyor. "
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr "Lütfen parolanızı girin."
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr "<b>%1</b> için lütfen parolanızı girin."
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Uyarı: </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr "<b>Parola doğru değil, lütfen yeniden deneyin.</b>"
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Yanlış parola! Çıkılıyor..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr "Komut bulunamadı!"
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr "Kullanıcı adınız sudo için bilinmiyor!"
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr "Kullanıcınız belirtilen komutu çalıştırmak için izinli değil!"
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr ""
+"Kullanıcınız sudo'yu bu sunucu üzerinde çalıştırmak için izinli değil!"
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "KDE için Sudo önucu"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Anthony Mercatante"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Anthony Mercatante"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Böhm"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr "bir kullanıcı olarak çalıştır'a ayarlar"
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr "Yürütülecek komut"
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr "Parolaları unut"
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Parola kutusunda kullanılmak için simge belirt"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "İletişim kutusunda çalıştırılacak komutu gösterme"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr "Öncelik süreci, 0 ile 100 arasında, 0 en düşük [50]"
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr "Gerçek zamanlı takvimleme kullan"
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr "<file> yazılabilir değilse hedef benzersiz tanıtıcıyı kullan"
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr "KDE'nin KdeSu uyumluluğu için uydurma seçenek"
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Parolayı saklama"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr "Varolan DCOP sunucusunu kullan"
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr "İletişim kutusunda gösterilmesi gereken komut"
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr "« yoksay » düğmesini gösterme"
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+"Pencereyi, pencere numarası belirtilen X uygulaması için geçici hale getirir"
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr "Otomatik masaüstü dosyası tanılamayı elle devre dışı bırakır"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+" ,Launchpad Contributions:,Aranel.Surion,Cihan Ersoy,Efe Çiftci,Emrah "
+"Ergin,Fatih Aşıcı,Hasan Yılmaz"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+",,aranel@aranelsurion.org,,efe.ciftci@linux.org.tr,erginemr@hotmail.com,,ilet"
+"isim@hasanyilmaz.net"

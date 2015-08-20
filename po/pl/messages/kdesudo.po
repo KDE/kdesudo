@@ -1,0 +1,187 @@
+# Polish translation for kdesudo
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the kdesudo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesudo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2008-03-01 19:09+0000\n"
+"Last-Translator: Pawel Dyda <pawel.dyda@gazeta.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+"Nie podano argumentów dla polecenia!\n"
+"Użycie: kdesudo [-u <uruchomjako>] <polecenie>\n"
+"KdeSudo zakończy działanie..."
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Priorytet:"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "w czasie rzeczywistym:"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Polecenie:"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr "wymaga uprawnień administratora. "
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr "Podaj swoje hasło."
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr "Podaj hasło dla <b>%1</b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Uwaga: </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr "<b>Niepoprawne hasło, spróbuj ponownie.</b>"
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Błędne hasło! Kończenie działania..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr "Polecenie nie zostało odnalezione!"
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr "Sudo nie rozpoznało nazwy użytkownika!"
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr "Użytkownik nie ma uprawnień do uruchomienia tego polecenia!"
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr "Użytkownik nie ma uprawnień do korzystania z sudo na tym komputerze!"
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "Nakładka na sudo dla KDE"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Anthony Mercatante"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Anthony Mercatante"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Böhm"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr ""
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr "uruchom z uprawnieniami tego użytkownika"
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr "Polecenie do uruchomienia"
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr "Nie zapamiętuj haseł"
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Ikona do wykorzystania w oknie wprowadzania hasła"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "Nie pokazuj polecenia uruchamianego w oknie"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr "Priorytet procesu, pomiędzy 0 a 100, najniższy [50]"
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr "Użyj szeregowania w czasie rzeczywistym"
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr "Use UID celu jeśli <file> jest niezapisywalny"
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr "Udawaj opcję dla kompatybilności z KDE's KdeSu"
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Nie przechowuj hasła"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr "Użyj istniejącego serwera DCOP"
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr "Komentarz do wyświetlenia w dialogu"
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr "Nie pokazuj przycisku « ignore »"
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr "Związuje okno dialogowe z programem X o podanym identyfikatorze wind"
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+" ,Launchpad Contributions:,Jan Skowronski,Longer,Mateusz Tybura,Pawel "
+"Dyda,Paweł Wasiak,Piotr Kubowicz,Piotr Strębski"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+",,crianonim@gmail.com,,wujciol@gmail.com,pawel.dyda@gazeta.pl,,derbeth@interi"
+"a.pl,strebski@o2.pl"

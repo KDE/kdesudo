@@ -1,0 +1,189 @@
+# translation of po_kdesudo-oc.po to Occitan (lengadocian)
+# Occitan (post 1500) translation for kdesudo
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the kdesudo package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: po_kdesudo-oc\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-12 13:14+0100\n"
+"PO-Revision-Date: 2010-10-10 07:30+0000\n"
+"Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
+"Language-Team: Occitan (lengadocian) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-10-11 20:28+0000\n"
+"X-Generator: Launchpad (build 16799)\n"
+
+#: kdesudo/kdesudo.cpp:83
+msgid ""
+"No command arguments supplied!\n"
+"Usage: kdesudo [-u <runas>] <command>\n"
+"KdeSudo will now exit..."
+msgstr ""
+"Cap de comanda pas especificada en argument !\n"
+"Utilizacion : kdesudo [-u <utilizaire>] <comanda>\n"
+"KdeSudo se va tampar ara..."
+
+#: kdesudo/kdesudo.cpp:209 kdesudo/kdesudo.cpp:221
+msgid "Priority:"
+msgstr "Prioritat :"
+
+#: kdesudo/kdesudo.cpp:209
+msgid "realtime:"
+msgstr "temps real :"
+
+#: kdesudo/kdesudo.cpp:255
+msgid "Command:"
+msgstr "Comanda :"
+
+#: kdesudo/kdesudo.cpp:260
+msgid "needs administrative privileges. "
+msgstr "necessita de privilègis administratius. "
+
+#: kdesudo/kdesudo.cpp:263
+msgid "Please enter your password."
+msgstr "Picatz vòstre senhal"
+
+#: kdesudo/kdesudo.cpp:265
+#, kde-format
+msgid "Please enter password for <b>%1</b>."
+msgstr "Picatz lo senhal per <b>%1</b>."
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Warning: </b>"
+msgstr "<b>Avertiment : </b>"
+
+#: kdesudo/kdesudo.cpp:307
+msgid "<b>Incorrect password, please try again.</b>"
+msgstr "<b>Senhal erronèu, ensajatz tornarmai.</b>"
+
+#: kdesudo/kdesudo.cpp:312
+msgid "Wrong password! Exiting..."
+msgstr "Marrit senhal ! Acabat..."
+
+#: kdesudo/kdesudo.cpp:316
+msgid "Command not found!"
+msgstr "Comanda inexistenta !"
+
+#: kdesudo/kdesudo.cpp:318
+msgid "Your username is unknown to sudo!"
+msgstr "Vòstre nom d'utilizaire es desconegut de sudo !"
+
+#: kdesudo/kdesudo.cpp:320
+msgid "Your user is not allowed to run the specified command!"
+msgstr "Avètz pas lo drech d'executar la comanda especificada !"
+
+#: kdesudo/kdesudo.cpp:322 kdesudo/kdesudo.cpp:324
+msgid "Your user is not allowed to run sudo on this host!"
+msgstr "Avètz pas lo drech d'executar sudo l'òste especificat !"
+
+#: kdesudo/main.cpp:42
+msgid "KdeSudo"
+msgstr "KdeSudo"
+
+#: kdesudo/main.cpp:43
+msgid "Sudo frontend for KDE"
+msgstr "Interfàcia KDe per sudo"
+
+#: kdesudo/main.cpp:45
+msgid "(C) 2007 - 2008 Anthony Mercatante"
+msgstr "(C) 2007 - 2008 Anthony Mercatante"
+
+#: kdesudo/main.cpp:51
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: kdesudo/main.cpp:53
+msgid "Anthony Mercatante"
+msgstr "Anthony Mercatante"
+
+#: kdesudo/main.cpp:55
+msgid "Martin Böhm"
+msgstr "Martin Böhm"
+
+#: kdesudo/main.cpp:57
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: kdesudo/main.cpp:59
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: kdesudo/main.cpp:65
+msgid "sets a runas user"
+msgstr "Especifica l'utilizaire cibla"
+
+#: kdesudo/main.cpp:66 kdesudo/main.cpp:85
+msgid "The command to execute"
+msgstr "La comanda d'executar"
+
+#: kdesudo/main.cpp:67
+msgid "Forget passwords"
+msgstr "Se remembrar pas dels senhals"
+
+#: kdesudo/main.cpp:68
+msgid "Specify icon to use in the password dialog"
+msgstr "Especificar l'icòna d'utilizar dins la fenèstra del senhal"
+
+#: kdesudo/main.cpp:70
+msgid "Do not show the command to be run in the dialog"
+msgstr "Afichar pas la comanda d'executar dins la bóstia de dialòg"
+
+#: kdesudo/main.cpp:71
+msgid "Process priority, between 0 and 100, 0 the lowest [50]"
+msgstr "Prioritat del processus, entre 0 e 100, 0 es la mai febla [50]"
+
+#: kdesudo/main.cpp:73
+msgid "Use realtime scheduling"
+msgstr "Utilizar l'ordonançament en temps real"
+
+#: kdesudo/main.cpp:74
+msgid "Use target UID if <file> is not writeable"
+msgstr "Utilizar l'UID cibla se <fichièr> es pas accessible en escritura"
+
+#: kdesudo/main.cpp:75
+msgid "Fake option for KDE's KdeSu compatibility"
+msgstr "Opcion factitz per la compatibilitat amb lo KdeSu de KDE"
+
+#: kdesudo/main.cpp:76
+msgid "Do not keep password"
+msgstr "Enregistrar pas lo senhal"
+
+#: kdesudo/main.cpp:77
+msgid "Use existing DCOP server"
+msgstr "Utilizar un servidor DCOP existent"
+
+#: kdesudo/main.cpp:78
+msgid "The comment that should be displayed in the dialog"
+msgstr "Comentari d'afichar dins la bóstia de dialòg"
+
+#: kdesudo/main.cpp:80
+msgid "Do not display « ignore » button"
+msgstr "Afichar pas lo boton « ignorar »"
+
+#: kdesudo/main.cpp:81
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+"Fa la fenèstra transitòria per una aplicacion X definida per son "
+"identificant de fenèstra (winid)"
+
+#: kdesudo/main.cpp:82
+msgid "Manual override for automatic desktop file detection"
+msgstr "Comanda manuala per la deteccion automatica dels fichièrs de burèu"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+" ,Launchpad Contributions:,Cédric VALMARY (Tot en òc),Yannig MARCHEGAY "
+"(Kokoyaya)"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ",,cvalmary@yahoo.fr,yannig@marchegay.org"

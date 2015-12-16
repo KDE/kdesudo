@@ -80,11 +80,8 @@ private:
     void error(const QString &);
     KProcess *m_process;
     bool m_error;
-    bool keepPwd;
-    bool emptyPwd;
     bool useTerm;
     bool noExec;
-    bool unCleaned;
     QString m_tmpName;
     QString iceauthorityFile;
     KDESu::KDESuPrivate::KCookie *m_pCookie;

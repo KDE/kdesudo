@@ -64,7 +64,7 @@ int main(int argc, char **argv)
     KCmdLineOptions options;
     options.add("u <runas>", ki18n("sets a runas user"));
     options.add("c <command>", ki18n("The command to execute"));
-    options.add("s", ki18n("Forget passwords"));
+    options.add("s", ki18n("Fake option for compatibility"));
     options.add("i <icon name>", ki18n("Specify icon to use in the password"
                                        " dialog"));
     options.add("d", ki18n("Do not show the command to be run in the dialog"));
@@ -73,7 +73,7 @@ int main(int argc, char **argv)
     options.add("r", ki18n("Use realtime scheduling"));
     options.add("f <file>", ki18n("Use target UID if <file> is not writeable"));
     options.add("t", ki18n("Fake option for KDE's KdeSu compatibility"));
-    options.add("n", ki18n("Do not keep password"));
+    options.add("n", ki18n("Fake option for compatibility"));
     options.add("nonewdcop", ki18n("Use existing DCOP server"));
     options.add("comment <dialog text>", ki18n("The comment that should be "
                 "displayed in the dialog"));

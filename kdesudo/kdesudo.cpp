@@ -58,9 +58,6 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
 {
     KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
 
-    keepPwd = (!args->isSet("n"));
-    emptyPwd = args->isSet("s");
-
     bool realtime = args->isSet("r");
     bool priority = args->isSet("p");
     bool showCommand = (!args->isSet("d"));
@@ -79,7 +76,7 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
         KWindowSystem::setMainWindow(m_dialog, (WId)winid);
     }
 
-    if (!args->isSet("c") && !args->count() && (!args->isSet("s"))) {
+    if (!args->isSet("c") && !args->count()) {
         KMessageBox::information(0, i18n("No command arguments supplied!\n"
                                          "Usage: kdesudo [-u <runas>] <command>\n"
                                          "KdeSudo will now exit...")
@@ -192,11 +189,15 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
     m_process->setEnv("DISPLAY", disp);
     m_process->setEnv("XAUTHORITY", m_tmpName);
 
-    if (emptyPwd) {
-        *m_process << "sudo" << "-k";
-    } else {
+    {
+        *m_process << "sudo";
+        // Do not cache credentials to avoid security risks caused by the fact
+        // that kdesudo could be invoked from anyting inside the user session
+        // potentially in such a way that it uses the cached credentials of a
+        // previously kdesudo run in that same scope.
+        *m_process << "-k";
         if (changeUID) {
-            *m_process << "sudo" << "-H" << "-S" << "-p" << "passprompt";
+            *m_process << "-H" << "-S" << "-p" << "passprompt";
 
             if (!runas.isEmpty()) {
                 *m_process << "-u" << runas;
@@ -332,13 +333,6 @@ void KdeSudo::parseOutput()
 
 void KdeSudo::procExited(int exitCode)
 {
-    if (!keepPwd && unCleaned) {
-        unCleaned = false;
-        m_process->clearProgram(); //clearArguments()
-        *m_process << "sudo" << "-k";
-        m_process->start();
-    }
-
     if (!m_error) {
         if (!m_tmpName.isEmpty()) {
             QFile::remove(m_tmpName);

@@ -1,0 +1,2 @@
+#cmakedefine01 HAVE_SYS_PRCTL_H
+#cmakedefine01 HAVE_PR_SET_DUMPABLE

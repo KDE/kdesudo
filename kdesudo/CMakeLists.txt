@@ -1,8 +1,4 @@
-find_package(KDE4 REQUIRED)
-
-include(KDE4Defaults)
-include(CheckIncludeFiles)
-include(CheckFunctionExists)
+configure_file(config.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 
 #  set(kt4_SRC app.cpp mainwindow.cpp core.cpp view.cpp viewmodel.cpp main.cpp)
 set(KDESUDO_SRC

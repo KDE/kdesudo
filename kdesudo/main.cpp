@@ -8,7 +8,7 @@
                                        Anthony Mercatante <tonio@kubuntu.org>
                                        Canonical Ltd (Jonathan Riddell
                                                       <jriddell@ubuntu.com>)
-                           (C) 2009 by Harald Sitter <apachelogger@ubuntu.com>
+                           (C) 2009-2015 by Harald Sitter <sitter@kde.org>
 
  ***************************************************************************/
 
@@ -34,10 +34,21 @@
 #include <KDebug>
 #include <KApplication>
 
+#include <config.h>
+
+#if HAVE_SYS_PRCTL_H
+#include <sys/prctl.h>
+#endif
+
 #include "kdesudo.h"
 
 int main(int argc, char **argv)
 {
+    // Disable ptrace to prevent arbitrary apps reading password out of memory.
+#if HAVE_PR_SET_DUMPABLE
+    prctl(PR_SET_DUMPABLE, 0);
+#endif
+
     KAboutData about(
         "kdesudo", 0, ki18n("KdeSudo"),
         "3.4.2.3", ki18n("Sudo frontend for KDE"),

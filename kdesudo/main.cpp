@@ -94,6 +94,7 @@ int main(int argc, char **argv)
                 "automatic desktop file detection"));
 
     options.add("+command", ki18n("The command to execute"));
+    options.add("e", "Indicates to the security policy that the user wishes to preserve their existing environment variables");
 
     KCmdLineArgs::addCmdLineOptions(options);
     KCmdLineArgs *args = KCmdLineArgs::parsedArgs();

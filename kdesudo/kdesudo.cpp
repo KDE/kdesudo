@@ -60,6 +60,7 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
 
     bool realtime = args->isSet("r");
     bool priority = args->isSet("p");
+    bool shareEnv = args->isSet("e");
     bool showCommand = (!args->isSet("d"));
     bool changeUID = true;
     bool noExec = false;
@@ -196,6 +197,9 @@ KdeSudo::KdeSudo(const QString &icon, const QString &appname) :
         // potentially in such a way that it uses the cached credentials of a
         // previously kdesudo run in that same scope.
         *m_process << "-k";
+        if (shareEnv)
+            *m_process << "-E";
+
         if (changeUID) {
             *m_process << "-H" << "-S" << "-p" << "passprompt";
 
